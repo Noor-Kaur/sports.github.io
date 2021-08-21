@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <html>
+        <title>Update Player</title>
+        <meta charset='utf-8'>
+        <link rel='stylesheet' href='/css/updatepage.css'>
+    </html>
+    <body>
+        <h4>Update Player's Score</h4>
+        <main>
+            <table>
+                <tr>
+                    
+                    <th>Player Name</th>
+                    <th>Score</th>
+                    <th>New Score</th>
+                    <th>Update</th>
+                </tr>
+                <% players.forEach((p)=>{ %>
+                    <tr>
+                        <form action='/update/<%= p.name%>' method='post'>
+                        <td><%= p.name%></td>
+                        <td><%= p.score%></td>
+                        <td><input name='ss'></td>
+                        <td><button>Update</button></td>
+                        </form>
+                <% }) %>
+            </table>
+        </main>
+    </body>
+</html>
