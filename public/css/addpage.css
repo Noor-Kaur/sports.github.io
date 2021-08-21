@@ -1,0 +1,51 @@
+body{
+    background-color: ivory;
+}
+
+h4{
+    text-align: center;
+    font-size: 40px;
+}
+
+main{
+    margin:0 30%;
+    background-color: rgba(233, 229, 223, 0.699);
+    height:200px;
+    padding:0 10%;
+    padding-top: 5%;
+    border-radius: 5px;
+    border: solid 1px grey;
+    box-shadow: 5px 5px 5px rgba(255, 105, 180, 0.521);
+}
+
+h5{
+    font-size: 20px;
+    margin:0;
+    margin-bottom: 3px;
+}
+
+input{
+    margin-bottom: 50px;
+    height: 20px;
+    font-size: 15px;
+}
+
+button{
+    margin-bottom: 50px;
+    font-size: 20px;
+    margin-left:50px;
+    padding:4px;
+    width: 100px;
+}
+
+button:hover{
+    background-color: rgb(180, 180, 180);
+    
+}
+
+@media only screen and (max-width:583px){
+
+    main{
+        margin:10%;
+    }
+}

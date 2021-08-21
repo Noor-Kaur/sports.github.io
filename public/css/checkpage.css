@@ -1,0 +1,38 @@
+body{
+    background-color: ivory;
+    text-align: center;
+}
+
+h4{
+    font-size: 40px;   
+}
+
+main{
+    padding-left: 350px;
+}
+
+table,th,td{
+    border: solid 2px black;
+    border-collapse: collapse;
+    padding:8px;
+    background-color: white;
+}
+ 
+table{
+    width:60%;
+}
+
+td{
+    color: black;
+    font-size:20px;
+    padding:6px;
+}
+
+button{
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: rgba(128, 128, 128, 0.719);
+}
